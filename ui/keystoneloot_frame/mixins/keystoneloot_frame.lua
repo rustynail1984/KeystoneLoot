@@ -30,6 +30,10 @@ function KeystoneLootFrameMixin:InitializeTabSystem()
     self.RaidsFrame:Init();
     self.raidsTabId = self:AddNamedTab(RAIDS, self.RaidsFrame);
 
+    self.IlvlOverviewFrame = CreateFrame("Frame", nil, self, "KeystoneLootIlvlOverviewFrameTemplate");
+    self.IlvlOverviewFrame:Init();
+    self.ilvlOverviewTabId = self:AddNamedTab(L["Item Levels"], self.IlvlOverviewFrame);
+
     self:SetTab(self.dungeonsTabId);
 end
 
@@ -86,6 +90,8 @@ function KeystoneLootFrameMixin:GetTabName(tabId)
         return "dungeons";
     elseif (tabId == self.raidsTabId) then
         return "raids";
+    elseif (tabId == self.ilvlOverviewTabId) then
+        return "ilvloverview";
     end
 
     return "dungeons"; -- Fallback

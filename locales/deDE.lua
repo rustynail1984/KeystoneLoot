@@ -51,3 +51,24 @@ L["+%d items dropping for all specs."] = "+%d weitere Gegenstände, die bei alle
 
 -- minimap_button.lua
 L["Left click: Open overview"] = "Linksklick: Übersicht öffnen";
+
+-- ilvl_overview_frame.lua
+L["Item Levels"] = "Gegenstandsstufen";
+L["Upgrade Tracks"] = "Aufwertungspfade";
+L["Upgrade Track"] = "Aufwertungspfad";
+L["ilvl"] = "GS";
+L["Crest"] = "Wappen";
+L["Adventurer"] = "Abenteurer";
+L["Crafted Item Levels"] = "Hergestellte Gegenstandsstufen";
+L["Dungeon Item Levels"] = "Dungeon-Gegenstandsstufen";
+L["Source"] = "Quelle";
+L["End of Dungeon"] = "Endbelohnung";
+L["Raid Item Levels"] = "Schlachtzug-Gegenstandsstufen";
+L["Early"] = "Früh";
+L["Mid"] = "Mitte";
+L["Late"] = "Spät";
+L["End"] = "Ende";
+L["Delve Item Levels"] = "Tiefen-Gegenstandsstufen";
+L["Tier"] = "Stufe";
+L["End of Delve"] = "Endbelohnung";
+L["Map Drop"] = "Karten-Drop";
