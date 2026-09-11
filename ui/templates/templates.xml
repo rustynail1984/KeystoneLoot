@@ -34,9 +34,9 @@
                             </Anchors>
                         </Texture>
                         <Texture parentKey="OwnedIcon" atlas="ParagonReputation_Bag" hidden="true">
-                            <Size x="15" y="18"/>
+                            <Size x="12" y="15"/>
                             <Anchors>
-                                <Anchor point="TOPLEFT" relativeKey="$parent.Icon" x="-5" y="6"/>
+                                <Anchor point="TOPLEFT" relativeKey="$parent.Icon" x="-5" y="5"/>
                             </Anchors>
                         </Texture>
                         <Texture parentKey="VoidcoreIcon" atlas="lootroll-toast-icon-need-up">
