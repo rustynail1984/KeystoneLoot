@@ -456,7 +456,7 @@ function KeystoneLootLootIconButtonMixin:UpdateOwnedIcon()
     local isOwned = self:IsEnabled() and IsOwnCharacterSelected() and Owned:Has(self.itemId);
 
     self.Content.OwnedIcon:SetShown(isOwned);
-    self.Content.FavoriteIcon:SetShown(self.showFavoriteIcon and not isOwned);
+    self.Content.FavoriteIcon:SetShown(self.showFavoriteIcon);
 
     self.Content.Icon:SetAlpha(isOwned and OWNED_ICON_ALPHA or 1);
     self.Content.SlotText:SetAlpha(isOwned and OWNED_TEXT_ALPHA or 1);
